@@ -25,7 +25,7 @@
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: white;
 }
-/* Button colour */
+ Button colour 
 .navbar-inverse .navbar-toggle {
     background-color: #425135;
     border-color: #8f9590;
@@ -47,4 +47,12 @@
 
 h1{
     text-align:center;
+}
+
+#grad {
+    background: #425135; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#425135, #64557c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#425135, #64557c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#425135, #64557c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#425135, #64557c); /* Standard syntax */
 }
