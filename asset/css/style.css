@@ -1,3 +1,50 @@
-.container{
-    background-color: black
+/* colour for Nav & logo */
+#logo{
+    background-color: #ffffff;
+    padding-top: 5px;
+    height: 100px;
+    text-align: center;
+}
+.navlogo{
+    background-color: white;
+}
+#myCollapsingList{
+    background-color:#425135;
+}
+
+/* Dropdown font colour */
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar{
+    background-color: #425135;
+    color: #425135;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+/* Button colour */
+.navbar-inverse .navbar-toggle {
+    background-color: #425135;
+    border-color: #8f9590;
+}
+.navbar-inverse .navbar-toggle:hover {
+    border-color: white;
+}
+.navbar-toggle .collapsed {
+    background-color: white;
+}
+.navbar-toggle {
+    /*background-color: #64557c;*/
+}
+/* #425135 - darkgreen */
+/* #64557c - lightpurple */
+/* #7e8380 - grey */
+/* #8f9590 - lightslategrey */
+/* #71796a - greengrey */
+
+h1{
+    text-align:center;
 }
