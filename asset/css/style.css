@@ -1,6 +1,7 @@
 /* colour for Nav & logo */
 #logo{
     background-color: #ffffff;
+    background-image: url("../img/menubg.png");
     padding-top: 5px;
     height: 70px;
 }
@@ -10,6 +11,7 @@
 
 #myCollapsingList{
     background-color:#425135;
+    background-image: url("../img/menubg.png");
 }
 
 /* Dropdown font colour */
@@ -18,8 +20,10 @@
 }
 .navbar{
     background-color: #425135;
+    background-image: url("../img/menubgtop.png");
     color: #425135;
     text-align: center;
+    border-radius: 0px;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -50,17 +54,20 @@ h1{
 }
 
 body {
-    background: #425135;
-    background: -webkit-linear-gradient(#425135, #64557c);
-    background: -o-linear-gradient(#425135, #64557c);
-    background: -moz-linear-gradient(#425135, #64557c);
-    background: linear-gradient(#425135, #64557c);
+    background: #324125;
+    background: -webkit-linear-gradient(#000000, #324125, #333333, #64557c);
+    background: -o-linear-gradient(#000000, #324125, #333333, #64557c);
+    background: -moz-linear-gradient(#000000, #324125, #333333, #64557c);
+    background: linear-gradient(#000000, #324125, #333333, #64557c);
     color:white;
 }
 
 .twitter-timeline {
     background-color: yellow;
 }
+
+/* Twitter feed */
+
 
 /* Media Queries */
 
@@ -74,6 +81,7 @@ body {
         display: none;
     }
 }
+
 @media(max-width:480px){
   .logonormal{
     display: none;
