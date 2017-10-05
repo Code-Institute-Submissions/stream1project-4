@@ -18,10 +18,11 @@
         background-color: #25292d;
         color: white;
         font-size: large;
-    }
+}
 
-.subscribeform{
-    text-align: center
+.subscribeform {
+    text-align: center;
+    background-color: #292f33;
 }
 
 /* Dropdown font colour */
@@ -72,7 +73,6 @@ h3{
     text-align:center;
 }
 
-
 input[name=btnsubmit]:active {
 color: green;
 }
@@ -94,6 +94,9 @@ aside {
 }
 footer {
     background-image: url("../img/bgtile.png");
+}
+.spacer{
+    height:15px;
 }
 .socialmedia {
     background-color: #292f33;

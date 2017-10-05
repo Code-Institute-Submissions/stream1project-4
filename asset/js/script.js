@@ -4,3 +4,9 @@
 //         $("this").css("background-color", "red");
 //     })
 // })
+
+//colorcycle
+for x<=360 x++
+if x=360 then x=0
+
+//css 
