@@ -10,6 +10,19 @@
     background-color: white;
 }
 
+/* Hue Rotated Logo */
+.logo-link img{
+  animation: hue 2.3s infinite linear;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
 #myCollapsingList{
     background-color:#292f33;
     background-image: url("../img/menubg.png");

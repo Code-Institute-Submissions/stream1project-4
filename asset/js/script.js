@@ -6,7 +6,7 @@
 // })
 
 //colorcycle
-for x<=360 x++
-if x=360 then x=0
+//for x<=360 x++
+//if x=360 then x=0
 
-//css 
+//css hue-rotate(x)
