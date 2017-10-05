@@ -86,9 +86,9 @@ h3{
     text-align:center;
 }
 
-input[name=btnsubmit]:active {
-color: green;
-}
+/*input[name=btnsubmit]:active {*/
+/*color: green;*/
+/*}*/
 
 body {
     background: #05090d;
