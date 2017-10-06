@@ -4,70 +4,78 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Stream 1 Project - Music Page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
-	<link rel="stylesheet" href="/asset/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"/>
+	<link rel="stylesheet" href="/asset/css/style.css" type="text/css"/>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
     <div class="navlogo" w3-include-html="logonav.html"></div>
-        <div class="row">
-            <section class="col-sm-8">
-                <div class="col-sm-12">
-                        <h1>News</h1>
-                    <article>
-                        <h2>October 2017</h2>
-                            <p>Setting up for going to the Ableton Loop conference in Berlin Germany next month</p>
-                    </article>
-                    <article>
-                        <h2>September 2017</h2>
-                            <p>New website under construction</p>
-                    </article>
-                    <article>
-                        <h2>July 2017</h2>
-                            <p>New record in production</p>
-                    </article>
-                </div>
-            </section>
-            <aside class="col-sm-4">
-                <div >
-                    <form class="subscribeform">
-                        <h3>Subscribe</h3>
-                        <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
-                        email address:<br>
-                        <input type="email" name="email"><br>
-                        First name:<br>
-                        <input type="text" name="firstname"><br>
-                        Last name:<br>
-                        <input type="text" name="lastname"><br>
-                        Mail Format:<br>
-                        <input type="radio" name="mailtype" value="html" checked>HTML
-                        <input type="radio" name="mailtype" value="plain">Plain Text<br>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-                <div class="col-sm-12 spacer"></div>
-                <div class="socialmedia col-sm-12 center-block vertical-center">
-                    <h3>Connect</h3>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="https://www.facebook.com/acidshell" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/acidshell" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-google"></a>
-                </div>
-                <div class="col-sm-12 spacer"></div>
-                <div>
-                    <a id="twitterdiv" class="twitter-timeline" data-tweet-limit="5" data-theme="dark" data-link-color="#77CC88" background-color="#000000" href="https://twitter.com/acidshell?ref_src=twsrc%5Etfw">Tweets by acidshell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </aside>
+        <div class="panel">
+            <div class="row">
+                <section class="col-sm-8">
+                    <div class="col-sm-12">
+                        <div class="boxpadding">
+                            <h1>News</h1>
+                                <article>
+                                    <h2>October 2017</h2>
+                                        <p>Setting up for going to the Ableton Loop conference in Berlin Germany next month</p>
+                                </article>
+                                <article>
+                                    <h2>September 2017</h2>
+                                        <p>New website under construction</p>
+                                </article>
+                                <article>
+                                    <h2>July 2017</h2>
+                                        <p>New record in production</p>
+                                </article>
+                        </div>
+                    </div>
+                </section>
+                <aside class="col-sm-4">
+                    <div >
+                        <form class="subscribeform">
+                            <div class="form-group">
+                                <h3>Subscribe</h3>
+                                <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
+                                email address:<br/>
+                                <input type="email" class="form-control" name="email"><br/>
+                                First name:<br/>
+                                <input type="text" class="form-control" name="firstname"><br/>
+                                Last name:<br/>
+                                <input type="text" class="form-control" name="lastname"><br/>
+                                Mail Format:<br/>
+                                <input type="radio" name="mailtype" value="html" checked>HTML
+                                <input type="radio" name="mailtype" value="plain">Plain Text<br/>
+                                <br>
+                                <input type="submit" class="form-control subbutton" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 spacer"></div>
+                    <div class="socialmedia col-sm-12 center-block vertical-center">
+                        <h3>Connect</h3>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="https://www.facebook.com/acidshell" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/acidshell" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-google"></a>
+                    </div>
+                    <div class="col-sm-12 spacer"></div>
+                    <div>
+                        <a id="twitterdiv" class="twitter-timeline" data-tweet-limit="5" data-theme="dark" data-link-color="#77CC88" background-color="#000000" href="https://twitter.com/acidshell?ref_src=twsrc%5Etfw">Tweets by acidshell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </aside>
+            </div>
         </div>
     <div w3-include-html="footer.html"></div> 
-    <script>w3.includeHTML();</script>
+    
 </body>
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/asset/js/script.js"></script>
+    <script>w3.includeHTML();</script>
 
 </html>
 

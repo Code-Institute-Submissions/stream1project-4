@@ -1,4 +1,9 @@
 /* colour for Nav & logo */
+
+.row{
+    margin:0px;
+}
+
 #logo{
     background-color: #ffffff;
     background-image: url("../img/menubg.png");
@@ -11,6 +16,9 @@
 }
 
 /* Hue Rotated Logo */
+.logo-link{
+  animation: hue 2.3s infinite linear;
+}
 .logo-link img{
   animation: hue 2.3s infinite linear;
 }
@@ -36,6 +44,15 @@
 .subscribeform {
     text-align: center;
     background-color: #292f33;
+    padding: 20px;
+}
+.boxpadding{
+        padding: 20px;
+}
+.subbutton{
+    color:#292f33;
+    font-size: medium;
+    font-style: bold;
 }
 
 /* Dropdown font colour */
@@ -44,7 +61,7 @@
 }
 .navbar{
     background-color: #292f33;
-    background-image: url("../img/menubgtop.png");
+    background-image: url("../img/menubar4.png");
     color: #425135;
     text-align: center;
     border-radius: 0px;
@@ -88,10 +105,6 @@ h3{
     text-align:center;
 }
 
-/*input[name=btnsubmit]:active {*/
-/*color: green;*/
-/*}*/
-
 body {
     background: #05090d;
     background: -webkit-linear-gradient(#05090d, #25292d, #333333, #64557c);
@@ -102,13 +115,18 @@ body {
 }
 
 section {
-    background-image: url("../img/bgtile.png");
+    background-color: #292f33;
 }
 aside {
+    background-color: #292f33;
     background-image: url("../img/bgtile.png");
 }
 footer {
     background-image: url("../img/bgtile.png");
+}
+panel{
+    background-color: #292f33;
+    /*background-image: url("../img/bgtile.png");*/
 }
 .spacer{
     height:15px;
@@ -116,6 +134,36 @@ footer {
 .socialmedia {
     background-color: #292f33;
     width: 100%;
+}
+
+#contact label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+#contact_submit{
+	padding-left: 100px;
+}
+#contact div{
+	margin-top: 1em;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+}
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+input.invalid, textarea.invalid {
+	border: 2px solid red;
+}
+input.valid, textarea.valid {
+	border: 2px solid green;
 }
 
 /* Font awesome */
