@@ -111,7 +111,7 @@ body {
     background-color: #292f33;
     background-image: url("../img/bgtile.png");
     color:white;
-    border-color: transparent
+    border-color: transparent;
 }
 
 section {
@@ -122,11 +122,13 @@ aside {
     background-image: url("../img/bgtile.png");
 }
 footer {
-    background-image: url("../img/bgtile.png");
-}
-panel{
     background-color: #292f33;
-    /*background-image: url("../img/bgtile.png");*/
+    background-image: url("../img/menubar4.png");
+}
+.panel{
+    background-color: #292f33;
+    background-image: url("../img/bgtile.png");
+    border:0px;
 }
 .spacer{
     height:15px;
