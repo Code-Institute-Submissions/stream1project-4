@@ -2,6 +2,8 @@
 
 .row{
     margin:0px;
+    background-color: #292f33;
+    background-image: url("../img/menubg.png");
 }
 
 #logo{
@@ -106,12 +108,10 @@ h3{
 }
 
 body {
-    background: #05090d;
-    background: -webkit-linear-gradient(#05090d, #25292d, #333333, #64557c);
-    background: -o-linear-gradient(#05090d, #25292d, #333333, #64557c);
-    background: -moz-linear-gradient(#05090d, #25292d, #333333, #64557c);
-    background: linear-gradient(#05090d, #25292d, #333333, #64557c);
+    background-color: #292f33;
+    background-image: url("../img/bgtile.png");
     color:white;
+    border-color: transparent
 }
 
 section {
