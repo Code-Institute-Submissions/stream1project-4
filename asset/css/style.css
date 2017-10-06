@@ -1,11 +1,4 @@
 /* colour for Nav & logo */
-
-.row{
-    margin:0px;
-    background-color: #292f33;
-    background-image: url("../img/menubg.png");
-}
-
 #logo{
     background-color: #ffffff;
     background-image: url("../img/menubg.png");
@@ -38,11 +31,18 @@
     background-image: url("../img/menubg.png");
 }
 #myCollapsingList a:hover { 
-        background-color: #25292d;
+        background-color: #555555;
         color: white;
         font-size: large;
 }
-
+.row{
+    margin:0px;
+    background-color: #292f33;
+    background-image: url("../img/menubg.png");
+}
+.spacer{
+    height:15px;
+}
 .subscribeform {
     text-align: center;
     background-color: #292f33;
@@ -101,7 +101,10 @@ h1{
     font-size: x-large;
     text-align:center;
 }
-
+h2{
+    font-size: large;
+    text-align:center;
+}
 h3{
     font-size: large;
     text-align:center;
@@ -124,15 +127,14 @@ aside {
 footer {
     background-color: #292f33;
     background-image: url("../img/menubar4.png");
+    padding-top: 10px;
 }
 .panel{
     background-color: #292f33;
     background-image: url("../img/bgtile.png");
     border:0px;
 }
-.spacer{
-    height:15px;
-}
+
 .socialmedia {
     background-color: #292f33;
     width: 100%;
@@ -228,9 +230,7 @@ input.valid, textarea.valid {
     text-align: center;
     display:inline-block;
 }
-/*.center-block a{*/
-/*    display:inline-block;*/
-/*}*/
+
 .button1 {
     background-color: #25292d;
 }
@@ -250,9 +250,27 @@ input.valid, textarea.valid {
 @media(max-width:480px){
   .logonormal{
     display: none;
-  }
+    }
 }
-
+@media(min-width:768px){
+    #myCollapsingList{
+        background-color:#292f33;
+        background-image: url("../img/menubar4.png");
+        font-size: large;
+    }
+    #myCollapsingList a:hover { 
+        font-size: x-large;
+            text-shadow: 2px 2px 4px red;
+    }
+    .logonavcombo{
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+    }
+    .panel{
+        padding-top: 125px;
+    }
+}
 
 /* #425135 - darkgreen */
 /* #64557c - lightpurple */
