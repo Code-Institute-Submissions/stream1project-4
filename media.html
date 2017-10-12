@@ -35,20 +35,23 @@
                 </div>
             </section>
             <aside class="col-sm-4">
-                <div >
-                    <form class="subscribeform">
-                        <h3>Subscribe</h3>
-                        <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
-                        email address:<br>
-                        <input type="email" name="email"><br>
-                        First name:<br>
-                        <input type="text" name="firstname"><br>
-                        Last name:<br>
-                        <input type="text" name="lastname"><br>
-                        Mail Format:<br>
-                        <input type="radio" name="mailtype" value="html" checked>HTML
-                        <input type="radio" name="mailtype" value="plain">Plain Text<br>
-                        <input type="submit" value="Submit">
+                <div>
+                    <form onsubmit="JavaScript:subscriptionClick()" class="subscribeform">
+                        <div class="form-group">
+                            <h2>Subscribe</h2>
+                            <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
+                            First name:<br/>
+                            <input type="text" id="subfname" class="form-control" name="firstname"><br/>
+                            Last name:<br/>
+                            <input type="text" id="subsname" class="form-control" name="lastname"><br/>
+                            email address:<br/>
+                            <input type="email" id="subemail" class="form-control" name="email"><br/>
+                            Mail Format:<br/>
+                            <input type="radio" name="mailtype" value="html" checked>HTML
+                            <input type="radio" name="mailtype" value="plain">Plain Text<br/>
+                            <br>
+                            <input type="submit" id="subscription" class="form-control subbutton" value="Submit">
+                        </div>
                     </form>
                 </div>
                 <div class="col-sm-12 spacer"></div>
