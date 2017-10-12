@@ -260,7 +260,7 @@ input.valid, textarea.valid {
     }
     #myCollapsingList a:hover { 
         font-size: x-large;
-            text-shadow: 2px 2px 4px red;
+            text-shadow: 2px 2px 4px black;
     }
     .logonavcombo{
         width: 100%;
@@ -268,7 +268,7 @@ input.valid, textarea.valid {
         z-index: 999;
     }
     .panel{
-        padding-top: 125px;
+        padding-top: 145px;
     }
 }
 

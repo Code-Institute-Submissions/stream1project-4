@@ -12,27 +12,27 @@
 </head>
 <body>
     <div class="navlogo" w3-include-html="logonav.html"></div>
-        <div class="row">
+        <div class="row panel">
             <section class="col-sm-12">
-                <div class="col-sm-12">
+                <div class="col-sm-12 boxpadding">
                         <h1>Booking Form</h1>
                     <article class="subscribeform">
                         <h2>Please make booking requests via the following form</h2>
-                            <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
-                                <form class="subscribeform">
-                                    email address:<br>
-                                    <input type="email" name="email"><br>
-                                    First name:<br>
-                                    <input type="text" name="firstname"><br>
-                                    Last name:<br>
-                                    <input type="text" name="lastname"><br>
-                                    Location:<br>
-                                    <input type="text" name="location"><br>
-                                    Contact Number:<br>
-                                    <input type="text" name="telephone"><br>
-                                    <br>
-                                    <input type="submit">
-                                </form>
+                            <p>We aim to respond within 24 hours</p>
+                        <form onsubmit="JavaScript:subbookingClick()" class="bookingform">
+                            <div class="form-group">
+                                First name:<br/>
+                                <input type="text" id="bookfname" class="form-control" name="firstname"><br/>
+                                Last name:<br/>
+                                <input type="text" id="booksname" class="form-control" name="lastname"><br/>
+                                email address:<br/>
+                                <input type="email" id="bookemail" class="form-control" name="email"><br/>
+                                Phone number including international prefix:<br/>
+                                <input type="tel" id="booktel" class="form-control" name="phone"><br/>
+                                <br>
+                                <input type="submit" id="subbooking" class="form-control" value="Submit">
+                            </div>
+                        </form>
                     </article>
                 </div>
             </section>
