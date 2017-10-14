@@ -7,7 +7,7 @@
     text-align: center;
 }
 .navlogo{
-    background-color: white;
+    background-color: black;
 }
 
 /* Hue Rotated Logo */
@@ -28,10 +28,11 @@
 
 #myCollapsingList{
     background-color:#292f33;
-    background-image: url("../img/menubg.png");
+    background-image: url("../img/menubg2.png");
 }
 #myCollapsingList a:hover { 
         background-color: #555555;
+        background-image: url("../img/menufg.png");
         color: white;
         font-size: large;
 }
@@ -41,7 +42,7 @@
     background-image: url("../img/menubg.png");
 }
 .spacer{
-    height:15px;
+    height:10px;
 }
 .subscribeform {
     text-align: center;
@@ -49,12 +50,12 @@
     padding: 20px;
 }
 .boxpadding{
-        padding: 20px;
+        padding: 0px, 14.5px, 0px, 14.5px;
 }
 .subbutton{
     color:#292f33;
-    font-size: medium;
-    font-style: bold;
+    font-size: small;
+    font-weight: bold
 }
 
 /* Dropdown font colour */
@@ -67,6 +68,7 @@
     color: #425135;
     text-align: center;
     border-radius: 0px;
+    margin-bottom: 0px;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: white;
@@ -83,7 +85,7 @@
     background-color: white;
 }
 .navbar-toggle {
-    /*background-color: #64557c;*/
+    background-color: #64557c;
 }
 
 a:link {
@@ -118,11 +120,16 @@ body {
 }
 
 section {
+    margin-top: 0px;
+}
+
+.newsdiv{
     background-color: #292f33;
 }
 aside {
     background-color: #292f33;
     background-image: url("../img/bgtile.png");
+    padding-top: 10px;
 }
 footer {
     background-color: #292f33;
@@ -268,7 +275,10 @@ input.valid, textarea.valid {
         z-index: 999;
     }
     .panel{
-        padding-top: 145px;
+        padding-top: 130px;
+    }
+    aside {
+        padding-top: 0px
     }
 }
 
