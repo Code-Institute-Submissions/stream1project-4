@@ -7,9 +7,9 @@ function subbookingClick() {
 };
 
 // Audio hover only works with the separate navbar file.
-var beepOne = $("#woosh")[0];
-$("#myCollapsingList li a")
-	.mouseenter(function() {
-		beepOne.play();
-		beepThree.play();
-	});
+// var beepOne = $("#woosh")[0];
+// $("#myCollapsingList li a")
+// 	.mouseenter(function() {
+// 		beepOne.play();
+// 		beepThree.play();
+// 	});
