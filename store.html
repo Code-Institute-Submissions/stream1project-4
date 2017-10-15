@@ -3,69 +3,75 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Stream 1 Project - Store Page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
-	<link rel="stylesheet" href="/asset/css/style.css" type="text/css" />
+	<title>Stream 1 Project - Music Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"/>
+	<link rel="stylesheet" href="/asset/css/style.css" type="text/css"/>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
     <div class="navlogo" w3-include-html="logonav.html"></div>
-        <div class="row panel">
-            <section class="col-sm-8">
-                <div class="col-sm-12 boxpadding">
-                        <h1>Store</h1>
-                    <article>
-                        <h2>Links to other online retailers</h2>
-                            <ul>
-                                <li>iTunes</li>
-                                <li>Google Play</li>
-                                <li>Amazon</li>
-                                <li>Beatport</li>
-                                <li>Bandcamp</li>
-                                <li>CD Baby</li>
-                            </ul>
-                    </article>
-                </div>
-            </section>
-            <aside class="col-sm-4">
-                <div>
-                    <form onsubmit="JavaScript:subscriptionClick()" class="subscribeform">
-                        <div class="form-group">
-                            <h2>Subscribe</h2>
-                            <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
-                            First name:<br/>
-                            <input type="text" id="subfname" class="form-control" name="firstname"><br/>
-                            Last name:<br/>
-                            <input type="text" id="subsname" class="form-control" name="lastname"><br/>
-                            email address:<br/>
-                            <input type="email" id="subemail" class="form-control" name="email"><br/>
-                            Mail Format:<br/>
-                            <input type="radio" name="mailtype" value="html" checked>HTML
-                            <input type="radio" name="mailtype" value="plain">Plain Text<br/>
-                            <br>
-                            <input type="submit" id="subscription" class="form-control subbutton" value="Submit">
+        <div class="panel">
+            <div class="row">
+                <div class="boxpadding">
+                    <section class="col-sm-8 col-xs-12">
+                        <div class="col-12">
+                            <div class="newsdiv">
+                                <h1>Store</h1><br>
+                                    <article>
+                                        <h2>Links to other online retailers</h2>
+                                            <ul>
+                                                <li>iTunes</li>
+                                                <li>Google Play</li>
+                                                <li>Amazon</li>
+                                                <li>Beatport</li>
+                                                <li>Bandcamp</li>
+                                                <li>CD Baby</li>
+                                            </ul>
+                                    </article>
+                            </div>
                         </div>
-                    </form>
+                    </section>
                 </div>
-                <div class="col-sm-12 spacer"></div>
-                <div class="socialmedia col-sm-12 center-block vertical-center">
-                    <h3>Connect</h3>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="https://www.facebook.com/acidshell" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/acidshell" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-google"></a>
-                </div>
-                <div class="col-sm-12 spacer"></div>
-                <div>
-                    <a id="twitterdiv" class="twitter-timeline" data-tweet-limit="5" data-theme="dark" data-link-color="#77CC88" background-color="#000000" href="https://twitter.com/acidshell?ref_src=twsrc%5Etfw">Tweets by acidshell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </aside>
+                <aside class="col-sm-4 col-xs-12">
+                    <div>
+                        <form onsubmit="JavaScript:subscriptionClick()" class="subscribeform">
+                            <div class="form-group">
+                                <h2>Subscribe</h2>
+                                <p>Subscribe to the newsletter for subscriber only bonuses using the form below</p>
+                                First name:<br/>
+                                <input type="text" id="subfname" class="form-control" name="firstname"><br/>
+                                Last name:<br/>
+                                <input type="text" id="subsname" class="form-control" name="lastname"><br/>
+                                email address:<br/>
+                                <input type="email" id="subemail" class="form-control" name="email"><br/>
+                                Mail Format:<br/>
+                                <input type="radio" name="mailtype" value="html" checked>HTML
+                                <input type="radio" name="mailtype" value="plain">Plain Text<br/>
+                                <br>
+                                <input type="submit" id="subscription" class="form-control subbutton" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 spacer"></div>
+                    <div class="socialmedia col-sm-12 center-block vertical-center">
+                        <h3>Connect</h3>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="https://www.facebook.com/acidshell" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/acidshell" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-google"></a>
+                    </div>
+                    <div class="col-sm-12 spacer"></div>
+                    <div>
+                        <a id="twitterdiv" class="twitter-timeline" data-tweet-limit="5" data-theme="dark" data-link-color="#77CC88" background-color="#000000" href="https://twitter.com/acidshell?ref_src=twsrc%5Etfw">Tweets by acidshell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </aside>
+            </div>
         </div>
     <footer class = "col-12 text-center logo-link">© Copyright Des Cahill
-        <div class="col-sm-12"><br></div>
+        <!--<div class="col-sm-12"><br></div>-->
     </footer>
 </body>
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
