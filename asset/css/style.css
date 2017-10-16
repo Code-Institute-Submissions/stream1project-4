@@ -34,7 +34,7 @@
 
 /* colour for Nav & logo */
 #logo{
-    background-color: #ffffff;
+    /*background-color: green;*/
     background-image: url("../img/logobg.png");
     padding-top: 5px;
     height: 70px;
@@ -46,10 +46,10 @@
 
 /* Hue Rotated Logo */
 .logo-link{
-  animation: hue 2.3s infinite linear;
+  animation: hue 4.3s infinite linear;
 }
 .logo-link img{
-  animation: hue 2.3s infinite linear;
+  animation: hue 4.3s infinite linear;
 }
 @-webkit-keyframes hue {
   from {
