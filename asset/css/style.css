@@ -7,6 +7,12 @@
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+
+.logoshadow{
+    
+}
+
+
 .hvr-shutter-in-horizontal:before {
   content: "";
   position: absolute;
@@ -302,7 +308,7 @@ input.valid, textarea.valid {
     }
 }
 
-@media(max-width:480px){
+@media(max-width:479px){
   .logonormal{
     display: none;
     }
