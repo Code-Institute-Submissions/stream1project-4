@@ -107,7 +107,6 @@
 }
 .navbar{
     background-color: #292f33;
-    /*background-image: url("../img/menubar4.png");*/
     color: #425135;
     text-align: center;
     border-radius: 0px;
@@ -163,7 +162,6 @@ h3{
 
 body {
     background-color: black;
-    /*background-image: url("../img/bg.png");*/
     color:white;
     border-color: transparent;
 }
@@ -181,13 +179,11 @@ section {
 
 aside {
     background-color: black;
-    /*background-image: url("../img/bg.png");*/
     padding-top: 10px;
     margin-top: 0px;
 }
 footer {
     background-color: black;
-    /*background-image: url("../img/menubar4.png");*/
     padding: 10px, 0px, 20px, 0px;
 }
 .panel{
