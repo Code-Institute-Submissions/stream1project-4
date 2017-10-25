@@ -8,17 +8,11 @@
   transition-duration: 0.2s;
 }
 
-.logoshadow{
-    
-}
-
-
 .hvr-shutter-in-horizontal:before {
   content: "";
   position: absolute;
   z-index: -1;
   background: black;
-  /*background-image: url("../img/menufg.png");*/
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
@@ -40,8 +34,8 @@
 
 /* colour for Nav & logo */
 #logo{
-    /*background-color: green;*/
-    background-image: url("../img/logobg.png");
+    background-color: black;
+    /*background-image: url("../img/logobg.png");*/
     padding-top: 5px;
     height: 70px;
     text-align: center;
@@ -66,20 +60,28 @@
   }
 }
 
-#myCollapsingList{
-    background-color:#292f33;
-    background-image: url("../img/menubg2.png");
+.myCollapsingList{
+    /*background-color:#292f33;*/
+    /*background-image: url("../img/menubg2.png");*/
 }
-#myCollapsingList a:hover { 
-        background-color: #555555;
-        background-image: url("../img/menufg.png");
-        color: white;
-        font-size: large;
+.myCollapsingList a:hover { 
+    background-color: #555555;
+    background-image: url("../img/menufg.png");
+    color: white;
+    font-size: large;
+}
+
+.myCollapsingList ul{
+    float: none;
+    width: 100%;
+}
+.nopad{
+    padding:0px;
 }
 .row{
     margin:0px;
-    background-color: #949592;
-    background-image: url("../img/bg.png");
+    background-color: black;
+    /*background-image: url("../img/bg.png");*/
 }
 .spacer{
     height:10px;
@@ -105,7 +107,7 @@
 }
 .navbar{
     background-color: #292f33;
-    background-image: url("../img/menubar4.png");
+    /*background-image: url("../img/menubar4.png");*/
     color: #425135;
     text-align: center;
     border-radius: 0px;
@@ -160,8 +162,8 @@ h3{
 }
 
 body {
-    background-color: #949592;
-    background-image: url("../img/bg.png");
+    background-color: black;
+    /*background-image: url("../img/bg.png");*/
     color:white;
     border-color: transparent;
 }
@@ -178,14 +180,14 @@ section {
 }
 
 aside {
-    background-color: #949592;
-    background-image: url("../img/bg.png");
+    background-color: black;
+    /*background-image: url("../img/bg.png");*/
     padding-top: 10px;
     margin-top: 0px;
 }
 footer {
-    background-color: #292f33;
-    background-image: url("../img/menubar4.png");
+    background-color: black;
+    /*background-image: url("../img/menubar4.png");*/
     padding: 10px, 0px, 20px, 0px;
 }
 .panel{
@@ -299,7 +301,7 @@ input.valid, textarea.valid {
 /* Media Queries */
 @media(min-width:480px){
     #logo{
-    background-color: #ffffff;
+    background-color: black;
     padding-top: 2px;
     height: 100px;
     }
@@ -314,18 +316,21 @@ input.valid, textarea.valid {
     }
 }
 @media(min-width:768px){
-    #myCollapsingList{
-        background-color:#292f33;
-        background-image: url("../img/menubar4.png");
-        font-size: large;
+.myCollapsingList{
+    width: 100%;
+    background-color:black;
+    /*background-image: url("../img/menubar4.png");*/
+    font-size: large;
     }
-    #myCollapsingList a:hover { 
-        font-size: x-large;
-        text-shadow: 2px 2px 4px black;
-        background-image: none;
-        background-color:Black;
-                animation: none;
+.myCollapsingList a:hover { 
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px black;
+    background-image: none;
+    background-color:Black;
+    animation: none;
     }
+
     .logonavcombo{
         width: 100%;
         position: fixed;
@@ -334,12 +339,25 @@ input.valid, textarea.valid {
     .panel{
         padding-top: 155px;
     }
+html body div nav ul li{
+    display:inline-block;
+    text-align: center;
+    width: 16.66%;
+}
     aside {
         padding-top: 10px
     }
     .col-xs-12.col-sm-8 {
         padding-right: 0px;
     }
+}
+.hvr-shutter-in-horizontal {
+  background: black;
+  background-image: none;
+}
+
+.hvr-shutter-in-horizontal:before {
+  background: #292f33;
 }
 
 /* #425135 - darkgreen */
