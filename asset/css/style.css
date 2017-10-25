@@ -187,8 +187,8 @@ footer {
     padding: 10px, 0px, 20px, 0px;
 }
 .panel{
-    background-color: #292f33;
-    background-image: url("../img/bgtile.png");
+    background-color: black;
+    /*background-image: url("../img/bgtile.png");*/
     border:0px;
     margin-bottom: 10px;
 }
