@@ -7,7 +7,6 @@
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-
 .hvr-shutter-in-horizontal:before {
   content: "";
   position: absolute;
@@ -59,7 +58,6 @@
     -webkit-filter: hue-rotate(360deg);
   }
 }
-
 .myCollapsingList{
     /*background-color:#292f33;*/
     /*background-image: url("../img/menubg2.png");*/
@@ -70,7 +68,6 @@
     color: white;
     font-size: large;
 }
-
 .myCollapsingList ul{
     float: none;
     width: 100%;
