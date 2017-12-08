@@ -6,6 +6,11 @@ function subbookingClick() {
     alert("Your message has been received and we will reply within the next day" + document.getElementById('bookfname').value + " " + document.getElementById('booksname').value + " " + document.getElementById('bookemail').value)
 };
 
+$("#carousel").carousel();
+
+
+
+
 // Audio hover only works with the separate navbar file.
 // var beepOne = $("#woosh")[0];
 // $("#myCollapsingList li a")

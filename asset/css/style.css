@@ -291,6 +291,62 @@ input.valid, textarea.valid {
     background-color: #25292d;
 }
 
+/* Carousel start*/
+.carousel {
+    height: 404px;
+    width: auto;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+ .carousel-caption {
+    z-index: 10;
+}
+ .carousel .item {
+    width: auto;
+    height: 400px;
+    background-color: transparent;
+}
+.carousel-inner > .item > img {
+    position: relative;
+    margin: 0px auto;
+    min-width: auto;
+    height: 400px;
+    max-width: 370px;
+}
+@media (min-width: 768px) {
+.carousel {
+    /*height: 504px;*/
+    width: 601px;
+    /*margin: 0 auto;*/
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    /*border-color: black;*/
+}
+/* .carousel-caption {*/
+/*    z-index: 10;*/
+/*}*/
+ .carousel .item {
+    width: 597px;
+    /*height: 500px;*/
+    /*background-color: transparent;*/
+}
+.carousel-inner > .item > img {
+    /*position: relative;*/
+    /*margin: 0px auto;*/
+    /*min-width: auto;*/
+    /*height: 500px;*/
+    max-width: none;
+}
+    .carousel-caption p {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+/* Carousel end */
+
+
 /* Media Queries */
 @media(min-width:480px){
     #logo{
