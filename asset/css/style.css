@@ -50,6 +50,13 @@
 .logo-link img{
   animation: hue 4.3s infinite linear;
 }
+
+#equipment a{
+    color:white;
+}
+#equipment a:hover{
+    color:#8dff76;
+}
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -58,12 +65,24 @@
     -webkit-filter: hue-rotate(360deg);
   }
 }
+
+#bioimg{
+    text-align: center;
+    margin: 0 auto;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#bioimg:hover {
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
 .myCollapsingList{
     /*background-color:#292f33;*/
     /*background-image: url("../img/menubg2.png");*/
 }
 .myCollapsingList a:hover { 
-    background-color: #555555;
+    background-color: #25292d;
     background-image: url("../img/menufg.png");
     color: white;
     font-size: large;
@@ -97,7 +116,25 @@
     font-size: small;
     font-weight: bold
 }
+#subbooking{
+    background-color: #25292d;
+    color:white;
+}
 
+#subbooking:hover{
+    background-color: #419061;
+    color:white;
+}
+
+#subscription{
+    background-color: #25292d;
+    color:white;
+}
+
+#subscription:hover{
+    background-color: #419061;
+    color:white;
+}
 /* Dropdown font colour */
 .navbar-inverse .navbar-nav>li>a {
     color: white;
@@ -118,6 +155,11 @@
     border-color: #8f9590;
 }
 .navbar-inverse .navbar-toggle:hover {
+    background-color: #419061;
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #292f33;
     border-color: white;
 }
 .navbar-toggle .collapsed {
@@ -236,7 +278,6 @@ input.valid, textarea.valid {
     border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 1;
 }
