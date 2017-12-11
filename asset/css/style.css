@@ -50,7 +50,12 @@
 .logo-link img{
   animation: hue 4.3s infinite linear;
 }
-
+.autorescaleimage{
+  display: block;
+  max-width:100%;
+  width: auto;
+  height: auto;
+}
 #equipment a{
     color:white;
 }
