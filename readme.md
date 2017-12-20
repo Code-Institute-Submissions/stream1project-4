@@ -15,7 +15,7 @@ User Interface (UI):
 User interface will load a separate navbar HTML page using W3's include script so Navigation bar can be adjusted in just one location, and dropped into each subsequent page.
 Subscription link and social media links (including Twitter widget) will be on most pages in the Aside tag. I did not use the include script here as I did not feel all of these features should be on every page.
 Initial landing page will contain all elements a user would need at a glance, and then a Bootstrap Navbar can be used to browse to subsequent pages.
-I added an interactive image transition on the Bio page which rotates on hover.
+I added an interactive image transition on the Bio page which rotates on hover to demonstrate transition effects.
 
 User Experience (UX):
 Logo:
@@ -24,6 +24,7 @@ Scaling - Logo was manually designed and redrawn as an SVG then scaled to make t
 Navigation Bar - Created using bootstrap and then customised using Hover CSS by Ian Lunn. This effect varies from mobile(Background with image) to desktop (without image).
 Carousel for images on the media page created using Jquery to cycle the images. Transparent background applied with black border to account for images with different aspect ratios.
 Users looking to buy music will be redirected to a variety of online retailers from the stores HTML page.
+Used a CSS saturation filter to pull down the saturation on the image on the main page. This was to balance the colour levels with the logo.
 
 Technologies used:
 Javascript
