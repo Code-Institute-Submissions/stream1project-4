@@ -11,7 +11,6 @@ Showcase musician profile, with centralised links to social media pages, shops, 
 Functionality:
 Needs to have a responsive design forusing on mobile first design.
 
-
 User Interface (UI):
 User interface will load a separate navbar HTML page using W3's include script so Navigation bar can be adjusted in just one location, and dropped into each subsequent page.
 Subscription link and social media links (including Twitter widget) will be on most pages in the Aside tag. I did not use the include script here as I did not feel all of these features should be on every page.

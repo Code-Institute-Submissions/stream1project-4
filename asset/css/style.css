@@ -1,34 +1,39 @@
+/* Simplifica Font */
+@font-face {
+    font-family: 'simplifica' ;
+    src: url('asset/fonts/simplifica.ttf') format('truetype');
+}
 /*Hover-CSS*/
 .hvr-shutter-in-horizontal {
-  background: black;
-  background-image: url("../img/menufg.png");
-  -webkit-transition-property: background-image;
-  transition-property: background-image;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+    background: black;
+    background-image: url("../img/menufg.png");
+    -webkit-transition-property: background-image;
+    transition-property: background-image;
+    -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
 }
 .hvr-shutter-in-horizontal:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: black;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: black;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
 }
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
-  color: white;
+    color: white;
 }
 .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
 }
 
 /* colour for Nav & logo */
@@ -39,22 +44,28 @@
     height: 70px;
     text-align: center;
 }
+.logo-font{
+    text-align: center;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-family: 'simplifica', san-serif;
+}
 .navlogo{
     background-color: black;
 }
 
 /* Hue Rotated Logo */
 .logo-link{
-  animation: hue 4.3s infinite linear;
+    animation: hue 4.3s infinite linear;
 }
 .logo-link img{
-  animation: hue 4.3s infinite linear;
+    animation: hue 4.3s infinite linear;
 }
 .autorescaleimage{
-  display: block;
-  max-width:100%;
-  width: auto;
-  height: auto;
+    display: block;
+    max-width:100%;
+    width: auto;
+    height: auto;
 }
 #equipment a{
     color:white;
@@ -81,7 +92,9 @@
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
 }
-
+.mainpageimage{
+    filter: saturate(50%);
+}
 .myCollapsingList{
     /*background-color:#292f33;*/
     /*background-image: url("../img/menubg2.png");*/
@@ -114,7 +127,7 @@
     border-radius: 6px;
 }
 .boxpadding{
-        padding: 0px, 14.5px, 0px, 14.5px;
+    padding: 0px, 14.5px, 0px, 14.5px;
 }
 .subbutton{
     color:#292f33;
