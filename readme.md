@@ -28,24 +28,44 @@ Used a CSS saturation filter to pull down the saturation on the image on the mai
 Video embedded to the media page in MP4 format as this is supported by all major browsers according to W3 schools.
 
 Technologies used:
-Javascript
-JQuery
+Javascript - For form submission.
+JQuery - Used for the carousel.
+Bootstrap 3 - Used but a lot of defaults were modified.
+Twitter Widget - API not used, just the widget.
+W3 Javascript - Used for creating an infinite loop to cycle hue.
+W3 Include HTML - Used to create a standard navbar section.
+Font Awesome - Used for some icons.
+Github and Github Pages - Used to track the progress of the project, and host the site for submission without a backend.
+Hover CSS by Ian Lunn (Licenced)
 HTML5
 CSS3
-Bootstrap 3
-Twitter Widget
-W3 Javascript
-W3 Include HTML
-Font Awesome
-Hover CSS by Ian Lunn (Licence paid)
+Cloud 9 - Used to code the project.
 
-Deployment method:
+Deployment method: Github Pages
 
 Testing:
+No backend so testing was done on multiple browsers, at different resolutions.
+Navbar          - Gets imported to each page with all links directing to the appropriate pages using w3 Include.
+                - Logo hue cycles at all resolutions using different resolution images for mobile devices hiding larger images or scaling depending on the resolution.
+                - Hover CSS works as expected on hover both for mobile and desktop.
+                - Stays on top using a high index value.
+Aside Sidebar   - Social media links work in the aside bar for each page using appropriate colours for each company when hovered.
+                - Twitter widget updates.
+                - Subscribe functionality works but just prints to the screen using Javascript.
+Index page      - Loads news section with image loading and working on all resolutions.
+Booking page    - Booking form loads and prints input to screen using Javascript.
+Store page      - Links to online retailers work with icons resized in accordance to their policies.
+Events page     - Loads image and some sample information for music events with appropriate spacing and padding.
+Media page      - Carousel cycles pictures automatically or when users click the appropriate arrows. A compromise had to be made with the size of the carousel due to the varying image dimensions.
+                - Video plays when user clicks the play button. This is just a sample video to demonstrate the technology working.
+                - Audio file plays. This is just a test file to demonstrate the functionality works. OGG file not included as all browsers support mp3 according to W3 schools.
+
 
 Accreditation:
+Video and some images were used from royalty free online resources.
+Hover CSS licenced for use already.
 
-Mockup file:
+Mockup/Wireframe files which did change a lot since they was created due to learning new features with the technology:
 Initial mockup for mobile and tablet devices:
 /mockup/mobileipad.png
 Initial mockup for desktops:
@@ -63,8 +83,8 @@ Write a README.md file for your project (in Markdown format) that explains what 
 In addition to the README.md file, you may include in your repository supplementary documentation and/or other relevant supporting material for the assessor in any format that is automatically handled by web browsers, such as html, pdf, jpg, etc. Files in proprietary formats such as Microsoft doc/docx will be ignored; but this is generally not a hindrance, since the vast majority of formats can be easily exported to PDF.
 Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
 Deploy the final version of your code to a hosting platform such as GitHub Pages.
-ADDITIONAL ADVICE
 
+ADDITIONAL ADVICE
 We advise that you create wireframes before embarking on full blown development.
 Incorporate as much as you have learned in our lessons.
 The site can also make use of CSS and JavaScript libraries/frameworks such as jQuery/Angular, just make sure you maintain a clear separation between the library code and your own code.
