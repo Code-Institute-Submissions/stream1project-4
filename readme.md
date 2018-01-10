@@ -24,8 +24,10 @@ User Experience (UX):<br/>
 Logo:<br/>
 * Effect - I used a hue rotate transition on the main logo, cycled with CSS in an infinite loop to constantly rotate the hue of the image and then designed the image so there were different colours throughout it.<br/>
 * Scaling - Logo was manually designed and redrawn as an SVG then scaled to make the different resolution images, then rendered. Rescaling pngs was minimised as a result to only really small screens(below an iphone).<br/>
-Navigation Bar
+
+Navigation Bar<br/>
 * Created using bootstrap and then customised using Hover CSS by Ian Lunn. This effect varies from mobile(Background with image) to desktop (without image).<br/>
+
 Carousel for images on the media page created using Jquery to cycle the images. Transparent background applied with black border to account for images with different aspect ratios.<br/>
 Users looking to buy music will be redirected to a variety of online retailers from the stores HTML page.<br/>
 Used a CSS saturation filter to pull down the saturation on the image on the main page. This was to balance the colour levels with the logo.<br/>
@@ -49,42 +51,52 @@ Technologies used:<br/>
 Deployment method: Github Pages<br/>
 https://cahilld.github.io/stream1project/
 <br/>
+  
 Testing:<br/>
-No backend so testing was done on multiple browsers, at different resolutions.<br/>
+No backend was used, so testing was done on multiple browsers, at different resolutions.<br/>
 Navbar<br/>
 * Gets imported to each page with all links directing to the appropriate pages using w3 Include.<br/>
 * Logo hue cycles at all resolutions using different resolution images for mobile devices hiding larger images or scaling depending on the resolution.<br/>
 * Hover CSS works as expected on hover both for mobile and desktop.<br/>
 * Stays on top using a high index value.<br/>
+
 Aside Sidebar<br/>
 * Social media links work in the aside bar for each page using appropriate colours for each company when hovered.<br/>
 * Twitter widget updates.<br/>
 * Subscribe functionality works but just prints to the screen using Javascript.<br/>
+
 Index page<br/>
 * Loads news section with image loading and working on all resolutions.<br/>
+
 Booking page<br/>
 * Booking form loads and prints input to screen using Javascript.<br/>
+
 Store page<br/>
 * Links to online retailers work with icons resized in accordance to their policies.<br/>
+
 Events page<br/>
 * Loads image and some sample information for music events with appropriate spacing and padding.<br/>
+
 Media page<br/>
-*- Carousel cycles pictures automatically or when users click the appropriate arrows. A compromise had to be made with the size of the carousel due to the varying image dimensions.<br/>
+* Carousel cycles pictures automatically or when users click the appropriate arrows. A compromise had to be made with the size of the carousel due to the varying image dimensions.<br/>
 * Video plays when user clicks the play button. This is just a sample video to demonstrate the technology working.<br/>
 * Audio file plays. This is just a test file to demonstrate the functionality works. OGG file not included as all browsers support mp3 according to W3 schools.<br/>
 * Audio and video players dont show download button.<br/>
 * Audio and video players are the same width when scaled.<br/>
+
 Bio page<br/>
 * Logo animation works on hover.<br/>
 * Bio text displayed and spaced correctly.<br/>
 * Links embeded to tools used section where applicable, and highlight green when hovered.<br/>
-                
+                 
 Accreditation:<br/>
 * Video and some images were used from royalty free online resources.<br/>
 * Hover CSS licenced for use already.<br/>
 
 Mockup/Wireframe files which did change a lot since they was created due to learning new features with the technology:<br/>
 * Initial mockup for mobile and tablet devices:<br/>
+![Mobile Markdown](./mockup/mockup-mobileipad.png)
+Format: ![Mobile Markdown Image](./mockup/mockup-mobileipad.png)
 /mockup/mobileipad.png<br/>
 * Initial mockup for desktops:<br/>
 /mockup/Mockup-desktop.png<br/>
