@@ -97,9 +97,9 @@ Mockup/Wireframe files which did change a lot since they was created due to lear
 * Initial mockup for mobile and tablet devices:<br/>
 ![Mobile Markdown](./mockup/mockup-mobileipad.png)
 Format: ![Mobile Markdown Image](./mockup/mockup-mobileipad.png)
-/mockup/mobileipad.png<br/>
 * Initial mockup for desktops:<br/>
-/mockup/Mockup-desktop.png<br/>
+![Mobile Markdown](./mockup/Mockup-desktop.png)
+Format: ![Mobile Markdown Image](./mockup/Mockup-desktop.png)
 
 Requirements:<br/>
 * Create a website of around 4-5 pages.<br/>
