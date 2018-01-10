@@ -25,6 +25,7 @@ Navigation Bar - Created using bootstrap and then customised using Hover CSS by 
 Carousel for images on the media page created using Jquery to cycle the images. Transparent background applied with black border to account for images with different aspect ratios.
 Users looking to buy music will be redirected to a variety of online retailers from the stores HTML page.
 Used a CSS saturation filter to pull down the saturation on the image on the main page. This was to balance the colour levels with the logo.
+Video embedded to the media page in MP4 format as this is supported by all major browsers according to W3 schools.
 
 Technologies used:
 Javascript
