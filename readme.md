@@ -59,8 +59,12 @@ Events page     - Loads image and some sample information for music events with 
 Media page      - Carousel cycles pictures automatically or when users click the appropriate arrows. A compromise had to be made with the size of the carousel due to the varying image dimensions.
                 - Video plays when user clicks the play button. This is just a sample video to demonstrate the technology working.
                 - Audio file plays. This is just a test file to demonstrate the functionality works. OGG file not included as all browsers support mp3 according to W3 schools.
-
-
+                - Audio and video players dont show download button.
+                - Audio and video players are the same width when scaled.
+Bio page        - Logo animation works on hover.
+                - Bio text displayed and spaced correctly.
+                - Links embeded to tools used section where applicable, and highlight green when hovered.
+                
 Accreditation:
 Video and some images were used from royalty free online resources.
 Hover CSS licenced for use already.
